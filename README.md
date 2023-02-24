@@ -2,11 +2,7 @@
 
 #### Demo view
 
-
-
-https://user-images.githubusercontent.com/81580234/221158202-fc27944c-4c8f-4534-bc25-4189b0c5962c.mp4
-
-
+https://user-images.githubusercontent.com/81580234/221159301-54828775-a238-4d24-bf9f-897fcd4a8619.mp4
 
 **Our Club Page [click here](https://www.facebook.com/PCuet)**
 
