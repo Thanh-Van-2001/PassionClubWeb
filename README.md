@@ -23,14 +23,6 @@ Just change `src/Module/general.js` to get your portfolio. Customize and your sp
 - NODE_VERSION: 8.1.0
 - NPM : 8.1.0
 
-## Table of Contents
-
-- [Sections]()
-- [Getting started]()
-- [Change and Customize]()
-- [Deployment]()
-- [Technologies Used]()
-- [Contributors]()
 
 ---
 
