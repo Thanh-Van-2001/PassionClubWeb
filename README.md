@@ -63,13 +63,13 @@ git@2.17.1 or higher
 1. Clone the repo.
 
 ```bash
-git clone https://github.com/Abusayid693/Hackathon-website-template.git
+git clone https://github.com/Thanh-Van-2001/PassionClubWeb.git
 ```
 
 2.Starting the Client application.
 
 ```bash
-cd Hackathon-website-template
+cd PassionClubWeb
 
 # install all packages
 
