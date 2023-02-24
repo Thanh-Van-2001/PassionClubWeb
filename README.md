@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/81580234/221158202-fc27944c-4c8f-4534-
 
 
 
-**For help you can join our discord [click here](https://discord.com/invite/8XJSzmtWPp)**
+**Our Club Page [click here](https://www.facebook.com/PCuet)**
 
 Just change `src/Module/general.js` to get your portfolio. Customize and your sponsors, team-member and development team by adding images in `src/Module/Assets` . 
 
