@@ -2,7 +2,11 @@
 
 #### Demo view
 
-![gifs](https://github.com/Limbo-Hacks/Hackathon-website-template/blob/main/Resources/Screen%20Recording%202021-08-14%20at%2010.42.16%20PM.gif)
+
+
+https://user-images.githubusercontent.com/81580234/221158202-fc27944c-4c8f-4534-bc25-4189b0c5962c.mp4
+
+
 
 **For help you can join our discord [click here](https://discord.com/invite/8XJSzmtWPp)**
 
@@ -81,10 +85,10 @@ cd Hackathon-website-template
 
 # install all packages
 
-npm install
+yarn install
 
 # start the server
-npm start
+yarn start
 ```
 
 `This will start client app on localhost:3000`
