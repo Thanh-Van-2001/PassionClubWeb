@@ -1,4 +1,4 @@
-import { SOCIALS, TOP_SECTION } from '../../Module/General';
+import {SOCIALS, TOP_SECTION} from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
 
@@ -41,7 +41,11 @@ const Myinfo = () => {
       <div className="buttom-group">
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
-          <Btn class="sponsor_btn" type="Tuyển thành viên" overlay="Điền thông tin" />
+          <Btn
+            class="sponsor_btn"
+            type="Tuyển thành viên"
+            overlay="Điền thông tin"
+          />
         </a>
 
         <a href={TOP_SECTION.PASSION_CLUB_REGISTRATION_FORM_LINK}>
@@ -57,5 +61,4 @@ const Myinfo = () => {
   );
 };
 
-export { Btn, Myinfo };
-
+export {Btn, Myinfo};

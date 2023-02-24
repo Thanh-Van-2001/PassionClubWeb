@@ -1,21 +1,30 @@
-import { UseMedia } from 'hooks/useMedia';
-import { useState } from 'react';
+import {UseMedia} from 'hooks/useMedia';
+import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { AddSectionAbout, Laga, Lege, Ligi, Logo, LogoSectionAbout, PrizeSectionAbout, WorkSectionAbout } from '../../components/About/index.jsx';
-import { Accordion } from '../../components/Accordian/index.jsx';
+import {
+  AddSectionAbout,
+  Laga,
+  Lege,
+  Ligi,
+  Logo,
+  LogoSectionAbout,
+  PrizeSectionAbout,
+  WorkSectionAbout
+} from '../../components/About/index.jsx';
+import {Accordion} from '../../components/Accordian/index.jsx';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
-import { Myinfo } from '../../components/Landing/index.jsx';
-import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
+import {Myinfo} from '../../components/Landing/index.jsx';
+import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
   SponsorsHead,
   SponsorUS
 } from '../../components/Sponsors/sponsors.jsx';
-import { JoinTeam, Member } from '../../components/Team';
+import {JoinTeam, Member} from '../../components/Team';
 import {
   FOOTER,
   frequentlyAskedQuestions,
@@ -81,14 +90,17 @@ const FrequentlyAsked = (props, index) => {
   );
 };
 
-
 export default function HomePage() {
   const [media, setMedia] = useState();
   UseMedia('min-width', 1000, setMedia);
 
   return (
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
-      <div className="color_sectiom" id="home" style={{backgroundImage: `url(${full})`}}>
+      <div
+        className="color_sectiom"
+        id="home"
+        style={{backgroundImage: `url(${full})`}}
+      >
         <Container fluid>
           <Row className="Row info">
             <Col className="info-div" sm={12} lg={7} md={7}>
@@ -104,10 +116,9 @@ export default function HomePage() {
               <Media />
             </Col>
           </Row>
-         
         </Container>
       </div>
-      
+
       <Container fluid>
         {/* Logo section  */}
         <Row className=" logoSection">
@@ -122,22 +133,36 @@ export default function HomePage() {
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
             <PrizeSectionAbout />
-
-            <br />&nbsp;<br />
-            <br />&nbsp;<br />
-            <br />&nbsp;<br />
-            <br />&nbsp;<br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
           </Col>
           <Col className="info-div" sm={12} lg={8} md={8}>
             <WorkSectionAbout />
-          </Col>       
+          </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
             <Lege />
-            <br />&nbsp;<br />
-            <br />&nbsp;<br />
-            <br />&nbsp;<br />
-            <br />&nbsp;<br />
-    
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
             <Ligi />
@@ -145,45 +170,43 @@ export default function HomePage() {
           <Col className="info-div" sm={12} lg={7} md={2}>
             <AddSectionAbout />
           </Col>
-               
         </Row>
-      
-        <br />&nbsp;<br />
-        <br />&nbsp;<br />
-        <br />&nbsp;<br />
-        <br />&nbsp;<br />
-        
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs" id="faq">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
-
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Cơ cấu tổ chức" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Structure ending here ***** */}
-
         <Row className="prizesection non-coding">
           <PrizeHeading type="Các sự kiện" />
-          
+
           <h2>coming soon</h2>
-          
         </Row>
-
         {/* ********Events here ***** */}
-
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
-
         {media && <Birds top="120vh" left="0vh" type="" />}
-
         {/* ********Team here ***** */}
         <h1 id="team">Ban chủ nhiệm</h1>
         {/* {FOOTER.JOIN_TEAM.required && (
@@ -195,9 +218,7 @@ export default function HomePage() {
         )} */}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
-
         {/* ********Judges here ***** */}
-
         <h1 id="team">Development team</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam

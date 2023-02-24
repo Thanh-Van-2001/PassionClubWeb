@@ -1,5 +1,5 @@
-import { SOCIALS } from '../../Module/General';
-import { Btn } from '../Landing/index.jsx';
+import {SOCIALS} from '../../Module/General';
+import {Btn} from '../Landing/index.jsx';
 import './sponsors.scss';
 
 function SponsorsHead() {
@@ -25,5 +25,4 @@ function SponsorUS() {
   );
 }
 
-export { SponsorsHead, Sponsor, SponsorUS };
-
+export {SponsorsHead, Sponsor, SponsorUS};

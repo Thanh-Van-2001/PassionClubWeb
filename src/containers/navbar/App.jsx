@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+import {useEffect, useRef, useState} from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
-import { MdxContent } from '../Mdx';
+import {MdxContent} from '../Mdx';
 import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import passion from './assets/passion1.png';
@@ -96,14 +96,13 @@ const NAVBAR = ({}) => {
         <Wrapper toggle={toggle}>
           <div className="nav-content" ref={navigation}>
             <ul>
-            <li>
+              <li>
                 <img
-                src= {passion}
-              className="d-inline-block align-top"
-              alt="PC logo"
-              height={90}
-              />
-
+                  src={passion}
+                  className="d-inline-block align-top"
+                  alt="PC logo"
+                  height={90}
+                />
               </li>
               <li>
                 <Link to={`#home`}>

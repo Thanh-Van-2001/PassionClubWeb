@@ -1,4 +1,4 @@
-import { SOCIALS } from '../../Module/General';
+import {SOCIALS} from '../../Module/General';
 import './style.css';
 
 export default function Media() {
@@ -17,8 +17,6 @@ export default function Media() {
         </a>
       </div>
 
-      
-
       <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
           <i className="fab fa-3x fa-discord"></i>
@@ -30,8 +28,6 @@ export default function Media() {
           <i className="fab fa-3x fa-tiktok"></i>
         </a>
       </div>
-      
-      
     </div>
   );
 }

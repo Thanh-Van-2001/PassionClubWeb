@@ -1,5 +1,5 @@
 import React from 'react';
-import { Btn } from '../Landing/index.jsx';
+import {Btn} from '../Landing/index.jsx';
 import './style.css';
 
 interface IJoinTeam {
@@ -38,5 +38,4 @@ const Member = ({info}: {info: any}) => {
   );
 };
 
-export { Member, JoinTeam };
-
+export {Member, JoinTeam};

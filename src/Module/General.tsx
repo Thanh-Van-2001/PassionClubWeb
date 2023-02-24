@@ -37,14 +37,11 @@ import thao from './Assets/teami/Thao.png';
 const TOP_SECTION = {
   TITLE: 'Passion Club',
   Typed_effect: ['Live your music', 'Live your passion'],
-  SHORT_DESCRIPTION:
-    'Câu lạc bộ Nghệ thuật trường Đại học Công Nghệ - ĐHQGHN',
+  SHORT_DESCRIPTION: 'Câu lạc bộ Nghệ thuật trường Đại học Công Nghệ - ĐHQGHN',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://www.facebook.com/groups/1744414188904755',
-  PASSION_CLUB_REGISTRATION_FORM_LINK:
-    'https://www.facebook.com/PCuet'
+  JUDGES_FORM_LINK: 'https://www.facebook.com/groups/1744414188904755',
+  PASSION_CLUB_REGISTRATION_FORM_LINK: 'https://www.facebook.com/PCuet'
 };
 
 const SOCIALS = {
@@ -52,35 +49,35 @@ const SOCIALS = {
   youtube: 'https://www.youtube.com/c/PcUET',
   discord: 'https://discord.com/invite/XHHuNDzm',
   tiktok: 'https://www.tiktok.com/@passionclubuet',
-  email: 'pc.uet.vnu@gmail.com',
+  email: 'pc.uet.vnu@gmail.com'
 };
 
 const MIDDLE_SECTION = {
   TITLE: 'Giới thiệu về CLB',
   LONG_DESCRIPTION:
     'Passion Club - Đội ngũ văn nghệ nòng cốt của UET. Được thành lập vào 25/3/2013, PC là mái nhà chung cho các bạn sinh viên yêu âm nhạc và vũ đạo trong và ngoài trường đồng thời quảng bá hình ảnh sinh viên UET nhiệt huyết, năng động và sáng tạo. Song hành với việc học tập, nghiên cứu hết mình trên giảng đường, Passion Club là nơi mà những con tim yêu nghệ thuật có thể cháy hết mình với ngọn lửa đam mê 🔥',
-  LOGO: pc,
+  LOGO: pc
 };
 
 const NEXT_SECTION = {
   TITLE: 'Một số thành tích nổi bật',
   LONG_DESCRIPTION:
     'Trong những năm gần đây, PC luôn tích cực tham gia các hoạt động văn nghệ trong và ngoài trường, có thể kể đến như Quán quân văn nghệ UET Clubday, giải nhì văn nghệ VNU hay finalist VNU Got Talent. Bên cạnh đó, nhà [P] đã tổ chức thành công hàng loạt hoạt động và nhận được sự hưởng ứng tích cực của mọi người như: Mini show “Lặng”, Cuộc thi “Thanh âm ngày Tết”, chương trình “Tựa” Radio và hàng loạt những show Du ca giao lưu cùng các CLB âm nhạc, nghệ thuật khác…',
-  LOGO: work,
+  LOGO: work
 };
 
 const THEN_SECTION = {
   TITLE: 'Vào PC, bạn sẽ được...',
   LONG_DESCRIPTION:
     'Đào tạo kiến thức về âm nhạc (thanh nhạc từ pop, ballad nhẹ nhàng cho tới rock, rap; nhạc cụ với organ, guitar, violin, cajon cho tới DJ; vũ đạo với Popping, Locking, Dân gian Đương đại, múa văn nghệ, Dance cover,...); các kỹ năng cần thiết để tổ chức một sự kiện âm nhạc với các quy mô lớn nhỏ (truyền thông - kỹ thuật như quay phim, chụp ảnh, sử dụng adobe, viết bài đăng; Tổ chức sự kiện như lên kế hoạch, ngân sách, quản lý nhân sự, đối ngoại như viết hồ sơ, xin tài trợ,...)',
-  LOGO: duca,
+  LOGO: duca
 };
 
 const ADD_SECTION = {
   TITLE: 'Hơn thế nữa...',
   LONG_DESCRIPTION:
     'Các PCer còn được trực tiếp tham gia vào những project của CLB để tạo ra những sản phẩm âm nhạc lưu lại dấu ấn cũng như chứng tỏ niềm đam mê âm nhạc của bản thân (Thu âm - Quay MV, Parody, ShortFilm); Trải nghiệm tham gia các hoạt động phong trào, tình nguyện trong và ngoài UET (Show diễn chuyên nghiệp và bán chuyên nghiệp, du ca,...) và được gặp gỡ nhiều "tiền bối" để học hỏi, trau dồi kiến thức cùng rất nhiều điều thú vị khác nữa.',
-  LOGO: thu,
+  LOGO: thu
 };
 
 const FOOTER = {
@@ -217,15 +214,15 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-book-open"></i>,
       type: 'Ban tổ chức sự kiện',
-      content: 'Gồm trưởng ban tổ chức sự kiện, lên kế hoạch, quản lý tài chính các sự kiện'
-    },
+      content:
+        'Gồm trưởng ban tổ chức sự kiện, lên kế hoạch, quản lý tài chính các sự kiện'
+    }
     // {
     //   icon: <i className=" fifth fa-3x fas fa-trophy"></i>,
     //   type: 'Best UI/UX',
     //   content: 'Project with most creative designs will be UI/UX track'
     // }
-  ],
-
+  ]
 ];
 
 /** Instructions
@@ -258,7 +255,7 @@ const TeamInfo = [
       instagram: '',
       img: thao
     }
-  ],
+  ]
   // [
   //   //Array 2
   //   {
@@ -287,10 +284,8 @@ const JudgesInfo = [
       facebook: 'https://www.facebook.com/felicenguyen2001/',
       linkedin: 'https://www.linkedin.com/in/vthanh2001/',
       img: thanh
-    },
-    
-  ],
-
+    }
+  ]
 ];
 
 /** Instructions
@@ -323,21 +318,21 @@ const frequentlyAskedQuestions = [
           'Tất cả các bạn sinh viên có niềm đam mê nghệ thuật trong và ngoài UET'
       },
       {
-        label: 'Mình không giỏi về đàn hát lắm, liệu mình có thể apply được không?',
+        label:
+          'Mình không giỏi về đàn hát lắm, liệu mình có thể apply được không?',
         content:
           'Đừng lo lắng, PC ngoài ban chuyên môn ra còn có ban vũ đạo, truyền thông và tổ chức sự kiện dành cho những bạn có thế mạnh riêng. Nhưng nếu bạn vẫn muốn apply vào ban chuyên môn thì hãy chuẩn bị và luyện tập thật kỹ càng để casting thật tốt nhé'
       },
       {
         label: 'Đôi nét về lịch sử PC',
         content:
-          "PC được thành lập vào 25/3/2013, bởi thầy Nguyễn Hà Thanh - giảng viên UET - VNU."
+          'PC được thành lập vào 25/3/2013, bởi thầy Nguyễn Hà Thanh - giảng viên UET - VNU.'
       }
     ],
     [
       {
         label: 'Vào PC có được phát ny không?',
-        content:
-          'Tất nhiên rồi, tại sao lại không chứ'
+        content: 'Tất nhiên rồi, tại sao lại không chứ'
       },
       {
         label: 'Hằng năm PC tổ chức những sự kiện gì?',
@@ -371,6 +366,5 @@ export {
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate,
-
+  calenderStartingDate
 };

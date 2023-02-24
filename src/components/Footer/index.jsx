@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
-import { FOOTER, SOCIALS, TOP_SECTION } from '../../Module/General';
-import { Btn } from '../Landing/index.jsx';
+import {useEffect, useState} from 'react';
+import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
+import {Btn} from '../Landing/index.jsx';
 import cross from './assets/cross.svg';
 import DevPost from './assets/icons8-dev-post.svg';
 import Dis from './assets/icons8-discord.svg';
@@ -11,14 +11,15 @@ import Twitter from './assets/icons8-twitter.svg';
 //------------------------------------------------------------------
 import './style.scss';
 
-
 const GithubTemplate = ({hideTemplate}) => {
   return (
     <div className="template">
       <div className="template-left">
         <p>
           Cùng{' '}
-          <a href={TOP_SECTION.PASSION_CLUB_REGISTRATION_FORM_LINK}>Passion Club </a>
+          <a href={TOP_SECTION.PASSION_CLUB_REGISTRATION_FORM_LINK}>
+            Passion Club{' '}
+          </a>
           cháy hết mình với tuổi thanh xuân nhé 🔥
         </p>
       </div>
