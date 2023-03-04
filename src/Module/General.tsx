@@ -107,28 +107,18 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 2,
+  month: 3,
   year: 2023
 };
 
 const schedule = [
-  {
-    day: '8-11-2021',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
   {
     day: '6-1-2023',
     events: [
       {
         title: 'MiniShow: Redamancy',
         timings: '7 PM - 10 Pm',
-        link: 'https://google.com'
+        link: 'https://www.facebook.com/PCuet/posts/pfbid02ZG6cZ58EDQ4Cjk2abf5cnY6KaXMaaNpu8yf42FDQQzhMawUdt1PToPixJSCzrKrsl'
       },
       {
         title: 'Ăn xiên bẩn',
@@ -143,7 +133,7 @@ const schedule = [
       {
         title: 'Team Building',
         timings: '12 AM - 6 Pm',
-        link: 'https://google.com'
+        link: 'https://www.facebook.com/PCuet/posts/pfbid02s2PKw3J4TAn34ePSPGSDmpmzviRr3Lwzi8rxjHwgeTrtFbcjxmKVN6MJUmUVPNSil'
       }
     ]
   },
@@ -153,7 +143,7 @@ const schedule = [
       {
         title: 'Valentine with PC',
         timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        link: 'https://fb.watch/j2Wd5lXOVO/'
       }
     ]
   },
