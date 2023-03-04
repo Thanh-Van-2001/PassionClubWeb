@@ -91,42 +91,50 @@ const Footer = () => {
           )}
         </div>
         <div className="footer_info">
-          {/* <p>
-            Liên hệ với chúng mình - Cho sđt vào đây{' '}
-            <a href={SOCIALS.email}>
-              <em>{SOCIALS.mail}</em>
-            </a>{' '}
-          </p> */}
-          <p>🏠 144 Xuân Thủy, Cầu Giấy, Hà Nội</p>
-          <p>📧 pc.uet.vnu@gmail.com</p>
-          <p>🌐 https://www.facebook.com/PCuet</p>
-          <p>☎️ 035 226 7031</p>
+          <div class="row">
+            <div class="col-md-4 px-md-1">
+              <h4>CÁC SẢN PHẨM CỦA CHÚNG TÔI</h4>
+              <a href="https://www.youtube.com/watch?v=IacbU7dVMAY&list=PLtd07R83OU2d3ddiS6_R3pvJLHq3SMjsp">
+                <p>📻 PC's live session</p>
+              </a>
+              <a href="https://www.youtube.com/watch?v=7zpUmBiOfbI">
+                <p>📻 Series Tựa Radio</p>
+              </a>
+              <a href="https://www.facebook.com/watch/463444960365466/798490580876134">
+                <p>📻 Music Contest: Thanh âm ngày Tết</p>
+              </a>
+              <a href="https://www.facebook.com/watch/463444960365466/429180421265539">
+                <p>📻 PC's Saturday</p>
+              </a>
+            </div>
 
-          {/* {FOOTER.Privacy_policy.required && (
-            <a
-              href={PrivacyPolicy}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Privacy Policy</p>
-            </a>
-          )}
-          {FOOTER.Terms_of_use.required && (
-            <a
-              href={TermsOfUse}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Terms of Use</p>
-            </a>
-          )} */}
-          <p>Made with ❤️</p>
+            <div class="col-md-4 px-md-1">
+              <h4>LIÊN HỆ</h4>
+              <p>🏠 144 Xuân Thủy, Cầu Giấy, Hà Nội</p>
+              <p>🌐 https://www.facebook.com/PCuet</p>
+              <p>📧 pc.uet.vnu@gmail.com</p>
+              <p>☎️ 035 226 7031</p>
+            </div>
+            <div class="col-md-4 px-md-1">
+              <h4>TRƯỜNG ĐHCN-ĐHQGHN</h4>
+              <a href="https://uet.vnu.edu.vn/">
+                <p>🌐 Website của trường</p>
+              </a>
+              <a href="https://www.facebook.com/PhongCTSV.DHCN.VNU">
+                <p>🌐 Phòng công tác sinh viên</p>
+              </a>
+              <a href="https://www.facebook.com/DTNHSV.UET.VNU">
+                <p>🌐 Đoàn Thanh niên - Hội Sinh viên </p>
+              </a>
+              <a href="https://www.facebook.com/ChaoTanSinhvien.UET">
+                <p>🌐 Ngày hội CLB</p>
+              </a>
+            </div>
+          </div>
         </div>
-        {template && viewTemplate && (
+        {/* {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
-        )}
+        )} */}
       </div>
     </div>
   );
