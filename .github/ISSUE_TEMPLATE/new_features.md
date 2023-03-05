@@ -1,6 +1,6 @@
 ---
 name: 💡 Feature request
-about: Suggest an enhancement to the Hackathon website template
+about: Suggest an enhancement to the Passion Club Website
 title: ''
 labels: 'kind/enhancement'
 assignees: ''
