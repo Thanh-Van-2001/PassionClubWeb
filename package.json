@@ -66,15 +66,15 @@
     "gh-pages": "^3.2.3",
     "husky": "^7.0.0"
   },
-  "description": "### Thanks [ella](https://github.com/eilla1) for design snippets",
+  "description": "### It is for you, PC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Limbo-Hacks/Limbo-hacks-website.git"
+    "url": "git+https://github.com/Thanh-Van-2001/PassionClubWeb.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
+    "url": "https://github.com/Thanh-Van-2001/PassionClubWeb/issues"
   }
 }

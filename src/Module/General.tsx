@@ -40,7 +40,8 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION: 'Câu lạc bộ Nghệ thuật trường Đại học Công Nghệ - ĐHQGHN',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK: 'http://localhost:3000/form',
+  JUDGES_FORM_LINK:
+    'https://docs.google.com/forms/d/e/1FAIpQLSfJ_5V3l9AcXm4a6XnWwSPkQ1Z1f7Mvo9keWXh16OLCcj1FWw/closedform',
   PASSION_CLUB_REGISTRATION_FORM_LINK: 'https://www.facebook.com/PCuet'
 };
 

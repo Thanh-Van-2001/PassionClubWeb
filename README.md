@@ -22,30 +22,20 @@ Just change `src/Module/general.js` to get your portfolio. Customize and your sp
 
 ---
 
-## [Website Sections]()
+## [Đôi lời của anh Thành gửi tới CLB]()
+* 10 năm ròng rã, PC đã đi qua nhiều khó khăn và thử thách, nhưng với sự cố gắng và nỗ lực của các thành viên, CLB đã trưởng thành và phát triển vượt bậc ❤️
 
-✔️ General Info.
+* Nhân dịp kỷ niệm sinh nhật lần thứ 10 của Passion Club, anh xin được gửi tới CLB một món quà tinh thần đặc biệt - 1 trang web dành riêng cho PC mình.
 
-✔️ Calender with schedule.
+* Đây cũng là mong muốn, dự định của nhiều thế hệ BCN, bản thân anh cũng là một thành viên của PC, anh nhận thấy rằng khi mình đủ khả năng để phát triển web dành cho CLB thì mình nên làm. Anh hy vọng rằng, đây sẽ là viên gạch đầu tiên, rồi sau đó cứ mỗi năm, các em lại tiếp tục đóng góp công sức của mình để web của CLB luôn được cập nhật, nhiều tính năng và đẹp mắt hơn.
 
-✔️ Registrations links.
+* Chúc PC có một sinh nhật thật vui vẻ và ý nghĩa, chúc tất cả các thành viên sẽ luôn gắn bó, đoàn kết và tiếp tục xây dựng nên những thành công mới cho CLB. Happy birthday 🎂
 
-✔️ Socials.
 
-✔️ Description and logo.
-
-✔️ Frequently asked questions.
-
-✔️ Club structure.
-
-✔️ Sponsors & Partners.
-
-✔️ Board of directors.
-
-✔️ Development team.
-
-✔️ Footer
-
+## [Một số dự định phát triển tương lai]()
+* Cái nút đơn đăng ký sẽ link đến page điền đơn riêng của mình luôn, không phải gán link gg form nữa
+* Mục ban chủ nhiệm sẽ có option theo từng năm, default sẽ là năm mới nhất, khi chọn 1 năm bất kỳ sẽ hiện ra thông tin của ban chủ nhiệm đó
+* Một số thông tin như BCN, Sponsors, dev team sẽ để vào BE
 
 ## [Getting Started]()
 
