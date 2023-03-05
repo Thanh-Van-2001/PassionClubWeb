@@ -40,14 +40,14 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION: 'Câu lạc bộ Nghệ thuật trường Đại học Công Nghệ - ĐHQGHN',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK: 'https://www.facebook.com/groups/1744414188904755',
+  JUDGES_FORM_LINK: 'http://localhost:3000/form',
   PASSION_CLUB_REGISTRATION_FORM_LINK: 'https://www.facebook.com/PCuet'
 };
 
 const SOCIALS = {
   facebook: 'https://www.facebook.com/PCuet',
   youtube: 'https://www.youtube.com/c/PcUET',
-  discord: 'https://discord.com/invite/XHHuNDzm',
+  discord: 'https://discord.gg/mxMFH88g',
   tiktok: 'https://www.tiktok.com/@passionclubuet',
   email: 'pc.uet.vnu@gmail.com'
 };
