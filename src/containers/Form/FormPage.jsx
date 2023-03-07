@@ -3,23 +3,14 @@ import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {
-  AddSectionAbout,
-  Laga,
-  Lege,
-  Ligi,
-  Logo,
-  LogoSectionAbout,
-  PrizeSectionAbout,
-  WorkSectionAbout
-} from '../../components/About/index.jsx';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing/index.jsx';
 import Media from '../../components/Socials/index.jsx';
+import {I1, I2, I3, R1, R2, R3} from '../../components/Timeline/index.jsx';
 import MyCalender from '../calender';
 import './about.css';
-import full from './assets/fulls.png';
+import bestclub from './assets/bestclub.png';
 import pattern from './assets/pattern4.png';
 
 export default function FormPage() {
@@ -31,7 +22,7 @@ export default function FormPage() {
       <div
         className="color_sectiom"
         id="home"
-        style={{backgroundImage: `url(${full})`}}
+        style={{backgroundImage: `url(${bestclub})`}}
       >
         <Container fluid>
           <Row className="Row info">
@@ -55,16 +46,16 @@ export default function FormPage() {
         {/* Logo section  */}
         <Row className=" logoSection">
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <LogoSectionAbout />
+            <R1 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <Logo />
+            <I1 />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
-            <Laga />
+            <I2 />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
-            <PrizeSectionAbout />
+            <R2 />
             <br />
             &nbsp;
             <br />
@@ -79,10 +70,10 @@ export default function FormPage() {
             <br />
           </Col>
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <WorkSectionAbout />
+            <R3 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <Lege />
+            <I3 />
             <br />
             &nbsp;
             <br />
@@ -95,12 +86,6 @@ export default function FormPage() {
             <br />
             &nbsp;
             <br />
-          </Col>
-          <Col className="info-div" sm={2} lg={5} md={2}>
-            <Ligi />
-          </Col>
-          <Col className="info-div" sm={12} lg={7} md={2}>
-            <AddSectionAbout />
           </Col>
         </Row>
         <br />

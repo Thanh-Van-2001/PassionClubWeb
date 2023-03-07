@@ -184,10 +184,26 @@ export default function HomePage() {
         &nbsp;
         <br />
         {/* ********Frequently asked Questions here ***** */}
+        <h1 id="faq">Các câu hỏi thường gặp</h1>
+        <h3 id="faq">
+          Nếu bạn có thắc mắc nào khác, hãy inbox fanpage của chúng mình nhé
+        </h3>
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
         <div className="Myfaqs" id="faq">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Cơ cấu tổ chức" />

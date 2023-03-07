@@ -28,6 +28,12 @@ h1 {
   text-align: center;
   font-size: 5rem;
 }
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
 .Row {
   text-align: center;
 }
@@ -50,7 +56,7 @@ h1 {
 }
 .logoSection {
   text-align: center;
-  padding: 10vh 10vh 0 10vh;
+  padding: 20vh 10vh 0 10vh;
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
