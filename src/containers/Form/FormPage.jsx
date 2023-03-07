@@ -13,84 +13,16 @@ import {
   PrizeSectionAbout,
   WorkSectionAbout
 } from '../../components/About/index.jsx';
-import {Accordion} from '../../components/Accordian/index.jsx';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing/index.jsx';
-import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
-import {
-  Sponsor,
-  SponsorsHead,
-  SponsorUS
-} from '../../components/Sponsors/sponsors.jsx';
-import {JoinTeam, Member} from '../../components/Team';
-import {
-  FOOTER,
-  frequentlyAskedQuestions,
-  JudgesInfo,
-  Prizeinfo,
-  sponsorLogos,
-  TeamInfo,
-  TOP_SECTION
-} from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
 import full from './assets/fulls.png';
 import pattern from './assets/pattern4.png';
 
-const SponsorGroup = (props, index) => {
-  return (
-    <Row key={index}>
-      {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={6}>
-          {' '}
-          <Sponsor srcx={s.src} />{' '}
-        </Col>
-      ))}
-    </Row>
-  );
-};
-
-// Prize group
-const PrizeGroup = (props, index) => {
-  return (
-    <Row key={index}>
-      {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
-        </Col>
-      ))}
-    </Row>
-  );
-};
-
-// Prize group ending
-const TeamMembers = (props, index) => {
-  return (
-    <Row key={index} className="members">
-      {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
-          <Member info={s} />
-        </Col>
-      ))}
-    </Row>
-  );
-};
-
-const FrequentlyAsked = (props, index) => {
-  return (
-    <Row key={index} className="sf">
-      {props.map((s, i) => (
-        <Col key={i} sm={12} lg={6} md={6}>
-          <Accordion panels={s} />
-        </Col>
-      ))}
-    </Row>
-  );
-};
-
-export default function HomePage() {
+export default function FormPage() {
   const [media, setMedia] = useState();
   UseMedia('min-width', 1000, setMedia);
 
@@ -184,32 +116,32 @@ export default function HomePage() {
         &nbsp;
         <br />
         {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs" id="faq">
+        {/* <div className="Myfaqs" id="faq">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          {/* ********Frequently asked Questions ending here ***** */}
-        </div>
+       
+        </div> */}
         {/* ********Prizes here ***** */}
-        <Row className="prizesection" id="prizes">
+        {/* <Row className="prizesection" id="prizes">
           <PrizeHeading type="Cơ cấu tổ chức" />
           {Prizeinfo.map(PrizeGroup)}
-        </Row>
+        </Row> */}
         {/* ********Structure ending here ***** */}
-        <Row className="prizesection non-coding">
+        {/* <Row className="prizesection non-coding">
           <PrizeHeading type="Các sự kiện" />
 
           <h2>coming soon</h2>
-        </Row>
+        </Row> */}
         {/* ********Events here ***** */}
-        <Row className="sponsorSection" id="sponsors">
+        {/* <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
-        </Row>
+        </Row> */}
         {/* ********Sponsors ending here ***** */}
         {media && <Birds top="120vh" left="0vh" type="" />}
         {media && <Birds top="220vh" left="0vh" type="" />}
         {/* ********Team here ***** */}
-        <h1 id="team">Ban chủ nhiệm</h1>
+        {/* <h1 id="team">Ban chủ nhiệm</h1> */}
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -217,10 +149,10 @@ export default function HomePage() {
             content="Interested in joining our team"
           />
         )} */}
-        {TeamInfo.map(TeamMembers)}
+        {/* {TeamInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
         {/* ********Judges here ***** */}
-        <h1 id="team">Development team</h1>
+        {/* <h1 id="team">Development team</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -228,7 +160,7 @@ export default function HomePage() {
             content="Cùng nhau phát triển page của CLB"
           />
         )}
-        {JudgesInfo.map(TeamMembers)}
+        {JudgesInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />

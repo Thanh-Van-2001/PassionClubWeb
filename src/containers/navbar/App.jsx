@@ -2,8 +2,8 @@ import {useEffect, useRef, useState} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
+import FormPage from '../Form/FormPage';
 import HomePage from '../Home/HomePage';
-import {MdxContent} from '../Mdx';
 import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import passion from './assets/passion1.png';
@@ -29,27 +29,6 @@ const Wrapper = styled.div`
     }
   }
 `;
-
-// const MdxContent = () => {
-//   return (
-//     <div
-//       style={{
-//         backgroundColor: 'red'
-//       }}
-//     >
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-//       <h1>This is blog</h1>
-
-//     </div>
-//   );
-// };
 
 const NAVBAR = ({}) => {
   const [toggle, setToggle] = useState(true);
@@ -129,6 +108,7 @@ const NAVBAR = ({}) => {
                   <span className="links">Ban chủ nhiệm </span>{' '}
                 </Link>
               </li>
+
               <img
                 className="s-close"
                 onClick={() => setToggle(true)}
@@ -146,8 +126,8 @@ const NAVBAR = ({}) => {
       </nav>
 
       <Switch>
-        <Route path="/blog" exact={true}>
-          <MdxContent />
+        <Route path="/form" exact={true}>
+          <FormPage />
         </Route>
         <Route path="/" exact={true}>
           <HomePage />

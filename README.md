@@ -37,6 +37,7 @@ Just change `src/Module/general.js` to get your portfolio. Customize and your sp
 * Tạo dịch vụ tài khoản cho các thành viên để có thể truy cập 1 số dịch vụ độc quyền như các khóa học âm nhạc, tài liệu học tập. Sẽ có trang profile riêng cho member
 * Mục ban chủ nhiệm sẽ có option theo từng năm, default sẽ là năm mới nhất, khi chọn 1 năm bất kỳ sẽ hiện ra thông tin của ban chủ nhiệm đó
 * Một số thông tin như BCN, Sponsors, dev team sẽ để vào BE
+* Phần form hỗ trợ truyền thông thì không cần thiết lắm, cứ ib vào fanpage để trao đổi thông tin cho dễ
 
 ## [Getting Started]()
 
