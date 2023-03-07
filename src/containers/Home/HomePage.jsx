@@ -26,12 +26,12 @@ import {
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
 import {
+  BoardOfDirectors,
+  ClubStructure,
+  DevTeam,
   FOOTER,
   frequentlyAskedQuestions,
-  JudgesInfo,
-  Prizeinfo,
   sponsorLogos,
-  TeamInfo,
   TOP_SECTION
 } from '../../Module/General';
 import MyCalender from '../calender';
@@ -204,10 +204,10 @@ export default function HomePage() {
         <br />
         &nbsp;
         <br />
-        {/* ********Prizes here ***** */}
+        {/* ********ClubStructure here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Cơ cấu tổ chức" />
-          {Prizeinfo.map(PrizeGroup)}
+          {ClubStructure.map(PrizeGroup)}
         </Row>
         {/* ********Structure ending here ***** */}
         <Row className="prizesection non-coding">
@@ -226,14 +226,7 @@ export default function HomePage() {
         {media && <Birds top="220vh" left="0vh" type="" />}
         {/* ********Team here ***** */}
         <h1 id="team">Ban chủ nhiệm</h1>
-        {/* {FOOTER.JOIN_TEAM.required && (
-          <JoinTeam
-            placeholder="Join our team"
-            formLink={FOOTER.JOIN_TEAM}
-            content="Interested in joining our team"
-          />
-        )} */}
-        {TeamInfo.map(TeamMembers)}
+        {BoardOfDirectors.map(TeamMembers)}
         {/* ********Team ending here ***** */}
         {/* ********Judges here ***** */}
         <h1 id="team">Development team</h1>
@@ -241,10 +234,10 @@ export default function HomePage() {
           <JoinTeam
             placeholder="Join our team"
             formLink={TOP_SECTION.JUDGES_FORM_LINK}
-            content="Cùng nhau phát triển page của CLB"
+            content="Cùng nhau phát triển website"
           />
         )}
-        {JudgesInfo.map(TeamMembers)}
+        {DevTeam.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />

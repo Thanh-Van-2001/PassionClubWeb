@@ -168,16 +168,16 @@ const schedule = [
 /** ICON
  *
  * icons are from fontawesome visit = https://fontawesome.com
- * and just copy paste icon links and update icon in Prizeinfo
+ * and just copy paste icon links and update icon in ClubStructure
  *
  * INSTRUCTIONS
  *
- * Insert only 3 or less then 3 prizes per array in `Prizeinfo`, you can
+ * Insert only 3 or less then 3 prizes per array in `ClubStructure`, you can
  * create as many arrays you want all prizes will be rendered
  * in a group of 3.
  */
 
-const Prizeinfo = [
+const ClubStructure = [
   [
     //Array 1
     {
@@ -222,12 +222,12 @@ const Prizeinfo = [
 ];
 
 /** Instructions
- * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
+ * Insert only 3 or less then 3 members per array in `BoardOfDirectors`, you can
  * create as many arrays you want all team members will be rendered
  * in a group of 3.
  */
 
-const TeamInfo = [
+const BoardOfDirectors = [
   [
     //Array 1
     {
@@ -271,12 +271,12 @@ const TeamInfo = [
   // ]
 ];
 
-const JudgesInfo = [
+const DevTeam = [
   [
     //Array 1
     {
       Name: 'Thanh',
-      role: 'Nguyễn Văn Thành - Technical Partner',
+      role: 'Nguyễn Văn Thành',
       facebook: 'https://www.facebook.com/felicenguyen2001/',
       linkedin: 'https://www.linkedin.com/in/vthanh2001/',
       img: thanh
@@ -322,7 +322,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Đôi nét về lịch sử PC',
         content:
-          'PC được thành lập vào 25/3/2013, bởi thầy Nguyễn Hà Thanh - giảng viên UET - VNU.'
+          'Passion Club được thành lập vào 25/3/2013, bởi thầy Nguyễn Hà Thanh - giảng viên UET - VNU.'
       }
     ],
     [
@@ -359,10 +359,10 @@ export {
   ROUND_3,
   SOCIALS,
   FOOTER,
-  Prizeinfo,
+  ClubStructure,
   sponsorLogos,
-  TeamInfo,
-  JudgesInfo,
+  BoardOfDirectors,
+  DevTeam,
   frequentlyAskedQuestions,
   schedule,
   calenderStartingDate
