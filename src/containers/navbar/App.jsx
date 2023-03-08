@@ -4,8 +4,6 @@ import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import FormPage from '../Form/FormPage';
 import HomePage from '../Home/HomePage';
-import logoClose from './assets/ham-c.svg';
-import hamLogo from './assets/ham.svg';
 import passion from './assets/passion1.png';
 import './styles.scss';
 
@@ -76,12 +74,9 @@ const NAVBAR = ({}) => {
           <div className="nav-content" ref={navigation}>
             <ul>
               <li>
-                <img
-                  src={passion}
-                  className="d-inline-block align-top"
-                  alt="PC logo"
-                  height={90}
-                />
+                <a href="/">
+                  <img src={passion} alt="PC logo" height="80" />
+                </a>
               </li>
               <li>
                 <Link to={`#home`}>
@@ -108,21 +103,10 @@ const NAVBAR = ({}) => {
                   <span className="links">Ban chủ nhiệm </span>{' '}
                 </Link>
               </li>
-
-              <img
-                className="s-close"
-                onClick={() => setToggle(true)}
-                src={logoClose}
-              />
             </ul>
           </div>
           <div className="ease" />
         </Wrapper>
-        <img
-          className="s-open"
-          onClick={() => setToggle(false)}
-          src={hamLogo}
-        />
       </nav>
 
       <Switch>

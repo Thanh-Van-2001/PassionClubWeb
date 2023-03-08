@@ -1,13 +1,6 @@
 import {useEffect, useState} from 'react';
-import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
-import {Btn} from '../Landing/index.jsx';
+import {TOP_SECTION} from '../../Module/General';
 import cross from './assets/cross.svg';
-import DevPost from './assets/icons8-dev-post.svg';
-import Dis from './assets/icons8-discord.svg';
-import Insta from './assets/icons8-instagram.svg';
-import Linked from './assets/icons8-linkedin-2.svg';
-import Mail from './assets/icons8-mail.svg';
-import Twitter from './assets/icons8-twitter.svg';
 //------------------------------------------------------------------
 import './style.scss';
 
@@ -48,6 +41,7 @@ const Footer = () => {
   return (
     <div>
       <div className="footer">
+        {/* Nếu muốn thêm các icon nhúng link mạng xã hội thì uncommment 
         <div className="social-icons-container">
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
@@ -79,16 +73,16 @@ const Footer = () => {
               <img src={DevPost} alt="" />
             </a>
           </div>
-        </div>
+        </div> */}
         <div className="Register_a">
-          <a href={TOP_SECTION.PASSION_CLUB_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
-          </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
+          {/* <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+            <Btn type="Tuyển thành viên" overlay="Điền thông tin" />
+          </a> */}
+          {/* {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
-          )}
+          )} */}
         </div>
         <div className="footer_info">
           <div class="row">
@@ -111,7 +105,9 @@ const Footer = () => {
             <div class="col-md-4 px-md-1">
               <h4>LIÊN HỆ</h4>
               <p>🏠 144 Xuân Thủy, Cầu Giấy, Hà Nội</p>
-              <p>🌐 https://www.facebook.com/PCuet</p>
+              <a href="https://www.facebook.com/PCuet">
+                <p>🌐 https://www.facebook.com/PCuet</p>
+              </a>
               <p>📧 pc.uet.vnu@gmail.com</p>
               <p>☎️ 035 226 7031</p>
             </div>

@@ -180,9 +180,6 @@ export default function HomePage() {
         <br />
         &nbsp;
         <br />
-        <br />
-        &nbsp;
-        <br />
         {/* ********Frequently asked Questions here ***** */}
         <h1 id="faq">Các câu hỏi thường gặp</h1>
         <h3 id="faq">
