@@ -164,10 +164,10 @@ export default function HomePage() {
             &nbsp;
             <br />
           </Col>
-          <Col className="info-div" sm={2} lg={5} md={2}>
+          <Col className="info-div" sm={2} lg={6} md={2}>
             <Ligi />
           </Col>
-          <Col className="info-div" sm={12} lg={7} md={2}>
+          <Col className="info-div" sm={12} lg={6} md={2}>
             <AddSectionAbout />
           </Col>
         </Row>

@@ -32,7 +32,8 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '/form',
-  PASSION_CLUB_REGISTRATION_FORM_LINK: 'https://www.facebook.com/PCuet'
+  PASSION_CLUB_REGISTRATION_FORM_LINK: 'https://www.facebook.com/PCuet',
+  DIRECT_GGFORM_LINK: 'https://tinyurl.com/PCTuyenQuanGen11'
 };
 
 const SOCIALS = {

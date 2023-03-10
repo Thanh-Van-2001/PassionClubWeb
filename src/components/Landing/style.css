@@ -20,16 +20,16 @@ button {
   position: relative;
 }
 
-.join_disco {
-  width: 25rem;
+.join_facebook {
+  width: 22rem;
   background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
 }
 
-.join_disco i {
+.join_facebook i {
   margin-right: 10px;
 }
 
-.join_dis {
+.join_fac {
   margin-bottom: 29px;
   margin-top: 19px;
   

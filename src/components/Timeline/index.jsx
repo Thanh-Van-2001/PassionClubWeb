@@ -1,3 +1,4 @@
+import YouTube from 'react-youtube';
 import './style.css';
 
 import {ROUND_1, ROUND_2, ROUND_3} from '../../Module/General';
@@ -53,4 +54,21 @@ function I3() {
   );
 }
 
-export {I1, R1, R2, I2, R3, I3};
+function FacebookVideo() {
+  const videoId = '4Y7Nq5T2dto';
+  const opts = {
+    width: '480',
+    height: '270',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1
+    }
+  };
+  return (
+    <div>
+      <YouTube videoId={videoId} opts={opts} />
+    </div>
+  );
+}
+
+export {I1, R1, R2, I2, R3, I3, FacebookVideo};
