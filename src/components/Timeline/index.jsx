@@ -1,7 +1,7 @@
 import YouTube from 'react-youtube';
 import './style.css';
 
-import {ROUND_1, ROUND_2, ROUND_3} from '../../Module/General';
+import {ROUND_1, ROUND_2, ROUND_3} from '../../Module/Recruit';
 
 function R1() {
   return (

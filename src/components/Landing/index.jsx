@@ -48,13 +48,9 @@ const Myinfo = () => {
           />
         </a>
 
-        <a href={TOP_SECTION.PASSION_CLUB_REGISTRATION_FORM_LINK}>
+        <a href={TOP_SECTION.PASSION_CLUB_LOOKING_BACK}>
           {' '}
-          <Btn
-            class="register"
-            type="Hỗ trợ truyền thông"
-            overlay="Điền thông tin"
-          />
+          <Btn class="register" type="Kể chuyện PC" overlay="Cùng nhìn lại" />
         </a>
       </div>
     </div>

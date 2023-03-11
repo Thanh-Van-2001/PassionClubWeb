@@ -25,12 +25,12 @@ import {
   SponsorUS
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
+import {frequentlyAskedQuestions} from '../../Module/Faq';
 import {
   BoardOfDirectors,
   ClubStructure,
   DevTeam,
   FOOTER,
-  frequentlyAskedQuestions,
   sponsorLogos,
   TOP_SECTION
 } from '../../Module/General';
