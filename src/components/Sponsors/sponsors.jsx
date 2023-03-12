@@ -3,7 +3,7 @@ import {Btn} from '../Landing/index.jsx';
 import './sponsors.scss';
 
 function SponsorsHead() {
-  return <h1 className="shead">Sponsors & Partners</h1>;
+  return <h1 className="shead">Nhà tài trợ và đồng hành</h1>;
 }
 
 function Sponsor(props) {
@@ -19,7 +19,7 @@ function SponsorUS() {
     <div className="joinT sponsorUS">
       <h3>Interested in Sponsoring </h3>
       <a href={SOCIALS.email}>
-        <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
+        <Btn className="sponsor_btn" type="Liên hệ" overlay="Gửi mail" />
       </a>{' '}
     </div>
   );

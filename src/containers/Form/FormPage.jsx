@@ -3,6 +3,7 @@ import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import {Accordion} from '../../components/Accordian/index.jsx';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {Btn, Myinfo} from '../../components/Landing/index.jsx';
@@ -16,11 +17,24 @@ import {
   R2,
   R3
 } from '../../components/Timeline/index.jsx';
+import {frequentlyAskedQuestions} from '../../Module/Faq';
 import {TOP_SECTION} from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
 import bestclub from './assets/bestclub.png';
 import pattern from './assets/pattern4.png';
+
+const FrequentlyAsked = (props, index) => {
+  return (
+    <Row key={index} className="sf">
+      {props.map((s, i) => (
+        <Col key={i} sm={12} lg={6} md={6}>
+          <Accordion panels={s} />
+        </Col>
+      ))}
+    </Row>
+  );
+};
 
 export default function FormPage() {
   const [media, setMedia] = useState();
@@ -121,6 +135,29 @@ export default function FormPage() {
           &nbsp;
           <br />
         </Row>
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <h1 id="faq">Các câu hỏi thường gặp</h1>
+        <h3 id="faq">
+          Nếu bạn có thắc mắc nào khác, hãy inbox fanpage của chúng mình nhé
+        </h3>
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <div className="Myfaqs" id="faq">
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
+        <br />
+        &nbsp;
+        <br />
       </Container>
       <Footer />
     </div>

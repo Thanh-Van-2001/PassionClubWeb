@@ -224,14 +224,17 @@ export default function HomePage() {
         {/* ********Team here ***** */}
         <h1 id="team">Ban chủ nhiệm</h1>
         {BoardOfDirectors.map(TeamMembers)}
-        {/* ********Team ending here ***** */}
-        {/* ********Judges here ***** */}
-        <h1 id="team">Development team</h1>
+        {/* ********Directors ending here ***** */}
+        {/* ********Dev team here ***** */}
+        <br />
+        &nbsp;
+        <br />
+        <h1 id="team">Đội ngũ phát triển</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
             formLink={TOP_SECTION.JUDGES_FORM_LINK}
-            content="Cùng nhau phát triển website"
+            // content="Cùng nhau phát triển website"
           />
         )}
         {DevTeam.map(TeamMembers)}

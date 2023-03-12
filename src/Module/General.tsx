@@ -4,17 +4,12 @@ import thu from './Assets/thu am.png';
 import work from './Assets/work.png';
 
 import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
+import astro from './Assets/sponsorsLogos/astronaut.png';
+import guitar from './Assets/sponsorsLogos/guitar.png';
 import heart from './Assets/sponsorsLogos/heart.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
+import mascot from './Assets/sponsorsLogos/mascot.png';
 import passion from './Assets/sponsorsLogos/passion1.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
+import piano from './Assets/sponsorsLogos/piano.png';
 import uet from './Assets/sponsorsLogos/UET.png';
 
 import hieu from './Assets/teami/Hieu.png';
@@ -160,19 +155,19 @@ const ClubStructure = [
       icon: <i className="first fas fa-4x fa-headphones"></i>,
       type: 'Ban chủ nhiệm',
       content:
-        'Gồm 1 chủ nhiệm và 2 phó chủ nhiệm, chịu trách nhiệm điều hành CLB'
+        'Là những người đứng đầu của tổ chức, ban chủ nhiệm gồm những thành viên có năng lực và kinh nghiệm trong việc tổ chức các hoạt động âm nhạc. Ban chủ nhiệm có vai trò quan trọng trong việc đưa ra các quyết định về hoạt động của CLB, đồng thời cũng là người đảm nhận vai trò chủ đạo trong việc quản lý và phát triển PC.'
     },
     {
       icon: <i className=" second fas fa-4x fa-guitar"></i>,
       type: 'Ban chuyên môn',
       content:
-        'Gồm trưởng ban chuyên môn, 1 phó ban thanh nhạc và 1 phó ban nhạc cụ'
+        'Được ví như linh hồn của CLB Nghệ thuật, ban chuyên môn bao gồm 2 tiểu ban thanh nhạc và nhạc cụ - những người đảm nhận vai trò chủ đạo trong việc tạo ra những sản phẩm âm nhạc. Các tiết mục trình diễn của Ban luôn đốt cháy sân khấu với những bản phối mới đầy sáng tạo cùng những giai điệu cuốn hút, thanh âm bay bổng và âm sắc đầy độc đáo.'
     },
     {
       icon: <i className=" third fas fa-4x fa-music"></i>,
       type: 'Ban vũ đạo',
       content:
-        'Gồm trưởng ban và phó ban vũ đạo, phụ trách đội nhảy và đội múa của CLB'
+        'Nhắc tới Ban Vũ Đạo, chúng ta đều nghĩ ngay đến những tiết mục đặc sắc, lôi cuốn tạo nên một bầu không khí vô cùng sôi động, náo nhiệt. Những dancer tài năng ai cũng mang một phong cách khác nhau nhưng khi đứng trên cùng một sân khấu, chính sự đa dạng đấy cùng niềm đam mê cháy bỏng đã khiến Ban Vũ Đạo toả sáng trên sân khấu hơn bao giờ hết. '
     }
   ],
   [
@@ -181,13 +176,13 @@ const ClubStructure = [
       icon: <i className="fourth fas fa-3x fa-camera"></i>,
       type: 'Ban truyền thông',
       content:
-        'Gồm trưởng ban truyền thông, phụ trách sáng tạo content trên các nền tảng trực tuyến'
+        'Những pháp sư tài năng của ban truyền thông là những người có năng lực nắm bắt những khoảnh khắc tỏa sáng của mọi người. Âm thầm nhưng đầy ý nghĩa, có thể nói Ban Truyền thông chính là “cơ quan ngôn luận” của FGC. Từng sự kiện lớn nhỏ đều không thể thiếu sự góp mặt của những chú ong chăm chỉ của Ban Truyền thông'
     },
     {
       icon: <i className="first fas fa-4x fa-book-open"></i>,
       type: 'Ban tổ chức sự kiện',
       content:
-        'Gồm trưởng ban tổ chức sự kiện, lên kế hoạch, quản lý tài chính các sự kiện'
+        'Đằng sau ánh hào quang sân khấu, luôn tồn tại những con người âm thầm, lặng lẽ cống hiến để tạo nên những sự kiện chuyên nghiệp với quy mô hoành tráng, đó chính là ban tổ chức sự kiện, bao gồm tiểu ban hậu cần và đối ngoại.'
     }
     // {
     //   icon: <i className=" fifth fa-3x fas fa-trophy"></i>,
@@ -267,10 +262,9 @@ const DevTeam = [
  */
 
 const sponsorLogos = [
-  [{src: uet}, {src: heart}, {src: passion}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: uet}, {src: heart}, {src: mascot}], //Array 1
+  [{src: astro}, {src: piano}, {src: guitar}], //Array 2
+  [{src: passion}]
 ];
 
 export {
