@@ -6,8 +6,6 @@ https://user-images.githubusercontent.com/81580234/221159301-54828775-a238-4d24-
 
 **Our Club Page [click here](https://www.facebook.com/PCuet)**
 
-Just change `src/Module/general.js` to get your portfolio. Customize and your sponsors, team-member and development team by adding images in `src/Module/Assets` . 
-
 ## [Prerequisites]()
 
 - Node js : 8.1.0

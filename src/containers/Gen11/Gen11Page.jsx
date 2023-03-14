@@ -5,22 +5,39 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
-import {Btn, Myinfo} from '../../components/Landing/index.jsx';
-import {PrizeHeading} from '../../components/Prizes/index.jsx';
-import Media from '../../components/Socials/index.jsx';
 import {
-  FacebookVideo,
-  I1,
-  I2,
-  R1,
-  R2,
-  R3
-} from '../../components/Timeline/index.jsx';
-import {TOP_SECTION} from '../../Module/General';
+  G11_1,
+  G11_2,
+  G11_3,
+  G11_4,
+  G11_5,
+  G11_6,
+  I11_1,
+  I11_2,
+  I11_3,
+  I11_4,
+  I11_5,
+  I11_6
+} from '../../components/Gen11/index.jsx';
+import {Myinfo} from '../../components/Landing/index.jsx';
+import Media from '../../components/Socials/index.jsx';
+import {Member} from '../../components/Team';
+import {BoardOfDirectors} from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
 import birth from './assets/birthday.png';
 import pattern from './assets/pattern4.png';
+const TeamMembers = (props, index) => {
+  return (
+    <Row key={index} className="members">
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={4} md={4}>
+          <Member info={s} />
+        </Col>
+      ))}
+    </Row>
+  );
+};
 
 export default function Gen11Page() {
   const [media, setMedia] = useState();
@@ -54,24 +71,16 @@ export default function Gen11Page() {
       <Container fluid>
         <Row className=" logoSection">
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <R1 />
-            <a href={TOP_SECTION.DIRECT_GGFORM_LINK}>
-              {' '}
-              <Btn
-                class="sponsor_btn"
-                type="Đăng ký ngay"
-                overlay="Điền thông tin"
-              />
-            </a>
+            <G11_1 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I1 />
+            <I11_1 />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
-            <I2 />
+            <I11_2 />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
-            <R2 />
+            <G11_2 />
             <br />
             &nbsp;
             <br />
@@ -85,11 +94,56 @@ export default function Gen11Page() {
             &nbsp;
             <br />
           </Col>
-          <Col className="info-div" sm={12} lg={7} md={8}>
-            <R3 />
+          <Col className="info-div" sm={12} lg={8} md={8}>
+            <G11_3 />
           </Col>
           <Col className="info-div" sm={2} lg={4} md={2}>
-            <FacebookVideo />
+            <I11_3 />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+          </Col>
+          <Col className="info-div" sm={2} lg={5} md={2}>
+            <I11_4 />
+          </Col>
+          <Col className="info-div" sm={12} lg={7} md={2}>
+            <G11_4 />
+          </Col>
+        </Row>
+        <Row className=" logoSection">
+          <Col className="info-div" sm={12} lg={7} md={8}>
+            <G11_5 />
+          </Col>
+          <Col className="info-div" sm={2} lg={2} md={2}>
+            <I11_5 />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+          </Col>
+
+          <Col className="info-div" sm={2} lg={5} md={2}>
+            <I11_6 />
+          </Col>
+          <Col className="info-div" sm={12} lg={7} md={2}>
+            <G11_6 />
           </Col>
         </Row>
         {media && <Birds top="120vh" left="0vh" type="" />}
@@ -106,21 +160,8 @@ export default function Gen11Page() {
         <br />
         &nbsp;
         <br />
-        <Row className="prizesection register-form">
-          <PrizeHeading type="Đơn đăng ký thành viên Gen 12" />
-          {/* <h3>Hãy điền đơn thật chính xác và chi tiết nhé</h3> */}
-          <a href={TOP_SECTION.DIRECT_GGFORM_LINK}>
-            {' '}
-            <Btn
-              class="sponsor_btn"
-              type="Đăng ký ngay"
-              overlay="Điền thông tin"
-            />
-          </a>
-          <br />
-          &nbsp;
-          <br />
-        </Row>
+        <h1 id="team">Ban chủ nhiệm Gen11</h1>
+        {BoardOfDirectors.map(TeamMembers)}
       </Container>
       <Footer />
     </div>
