@@ -19,13 +19,13 @@ import {
   I11_5,
   I11_6
 } from '../../components/Gen11/index.jsx';
-import {Myinfo} from '../../components/Landing/index.jsx';
+import {Btn, Myinfo} from '../../components/Landing/index.jsx';
+import {PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {Member} from '../../components/Team';
-import {BoardOfDirectors} from '../../Module/General';
-import MyCalender from '../calender';
+import {BoardOfDirectors, TOP_SECTION} from '../../Module/General';
 import './about.css';
-import birth from './assets/birthday.png';
+import best from './assets/bestclub.png';
 import pattern from './assets/pattern4.png';
 const TeamMembers = (props, index) => {
   return (
@@ -48,15 +48,12 @@ export default function Gen11Page() {
       <div
         className="color_sectiom"
         id="home"
-        style={{backgroundImage: `url(${birth})`}}
+        style={{backgroundImage: `url(${best})`}}
       >
         <Container fluid>
           <Row className="Row info">
             <Col className="info-div" sm={12} lg={7} md={7}>
               <Myinfo />
-            </Col>
-            <Col className="d-image" sm={12} lg={5} md={5}>
-              <MyCalender />
             </Col>
           </Row>
 
@@ -70,6 +67,16 @@ export default function Gen11Page() {
 
       <Container fluid>
         <Row className=" logoSection">
+          <h1> Chuyện Gen11 chúng mình...</h1>
+          <br />
+          &nbsp;
+          <br />
+          <br />
+          &nbsp;
+          <br />
+          <br />
+          &nbsp;
+          <br />
           <Col className="info-div" sm={12} lg={8} md={8}>
             <G11_1 />
           </Col>
@@ -139,15 +146,17 @@ export default function Gen11Page() {
             <br />
           </Col>
 
-          <Col className="info-div" sm={2} lg={5} md={2}>
+          <Col className="info-div" sm={2} lg={6} md={2}>
             <I11_6 />
           </Col>
-          <Col className="info-div" sm={12} lg={7} md={2}>
+          <Col className="info-div" sm={12} lg={6} md={2}>
             <G11_6 />
           </Col>
         </Row>
         {media && <Birds top="120vh" left="0vh" type="" />}
         {media && <Birds top="220vh" left="0vh" type="" />}
+        {media && <Birds top="320vh" left="0vh" type="" />}
+        {media && <Birds top="420vh" left="0vh" type="" />}
         <br />
         &nbsp;
         <br />
@@ -162,6 +171,33 @@ export default function Gen11Page() {
         <br />
         <h1 id="team">Ban chủ nhiệm Gen11</h1>
         {BoardOfDirectors.map(TeamMembers)}
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <br />
+        &nbsp;
+        <br />
+        <Row className="prizesection register-form">
+          <PrizeHeading type="Chuyện Gen10..." />
+          {/* <h3>Hãy điền đơn thật chính xác và chi tiết nhé</h3> */}
+          <a href={TOP_SECTION.DIRECT_GGFORM_LINK}>
+            {' '}
+            <Btn
+              class="sponsor_btn"
+              type="Cùng quay ngược thời gian"
+              overlay="One year ago..."
+            />
+          </a>
+          <br />
+          &nbsp;
+          <br />
+        </Row>
       </Container>
       <Footer />
     </div>

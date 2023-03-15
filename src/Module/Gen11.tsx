@@ -12,7 +12,7 @@ const TUYEN_QUAN = {
 };
 
 const CON_TEST = {
-  TITLE: 'Tích cực tham gia các cuộc thi',
+  TITLE: 'Nhà leo núi đích thực',
   LONG_DESCRIPTION:
     'Song song các hoạt động nội bộ, Passion Club còn tích cực tham gia các cuộc thi âm nhạc, vũ đạo được tổ chức trong và ngoài trường. Trong năm vừa qua, PC đã vinh dự đạt giải nhất phần thi văn nghệ UET-Clubday, giải nhì hội thi dân vũ VNU và lọt vào chung kết VNU got talents. Đây là những thành tích đáng tự hào và hứa hẹn trong thời gian sắp tới, CLB sẽ tiếp tục phát huy và đạt được nhiều giải thưởng hơn nữa.',
   LOGO: prize
@@ -21,14 +21,14 @@ const CON_TEST = {
 const LIVE_SHOW = {
   TITLE: 'Live show: Redamancy',
   LONG_DESCRIPTION:
-    'Show ca nhạc là một trong những món ăn tinh thần không thể thiếu của một CLB Nghệ thuật. Tháng 1 vừa qua, PC đã tổ chức thành công minishow "Redamancy", một đêm nhạc ngọt ngào, đong đầy và yêu thương, với sự tham gia của tất cả các thành viên CLB. Hãy cùng chúng mình đón chờ những show ca nhạc tiếp theo của PC nhé!',
+    'Show ca nhạc là một trong những món ăn tinh thần không thể thiếu của một CLB Nghệ thuật. Tháng 1 vừa qua, Gen11 đã tổ chức thành công minishow "Redamancy", một đêm nhạc ngọt ngào, đong đầy và yêu thương, với sự tham gia của tất cả các thành viên CLB. Hãy cùng chúng mình đón chờ những show ca nhạc tiếp theo của PC nhé!',
   LOGO: live
 };
 
 const HOLA = {
   TITLE: 'Hola - Halo',
   LONG_DESCRIPTION:
-    'Trong thời gian Gen11 làm minishow Redamancy, các thành viên Gen10 đã lên Hola để học giáo dục quốc phòng. Đây cũng là cơ hội để cho các thành viên được gắn kết với nhau hơn sau 1 thời gian dài hoạt động online do dịch bệnh. Ở nơi được mệnh danh là "Nơi tình yêu bắt đầu" các PCer đã tổ chức nhiều hoạt động sôi nổi như du ca, Hola Show hay tham gia văn nghệ trong Đêm gala.',
+    'Trong thời gian Gen11 làm minishow Redamancy, các thành viên Gen10 đã lên Hola để học Giáo dục quốc phòng. Đây cũng là cơ hội để cho các thành viên được gắn kết với nhau hơn sau 1 thời gian dài hoạt động online do dịch bệnh. Ở nơi được mệnh danh là "Nơi tình yêu bắt đầu" các PCer đã tổ chức nhiều hoạt động sôi nổi như du ca, Hola Show hay tham gia văn nghệ trong Đêm gala.',
   LOGO: hola
 };
 const LIVE_SESSION = {
@@ -39,7 +39,7 @@ const LIVE_SESSION = {
 };
 
 const LITTLE_THINGS = {
-  TITLE: 'Những sự kiện nội bộ ấm áp',
+  TITLE: 'Một đại gia đình',
   LONG_DESCRIPTION:
     'Không chỉ năng động trong các sự kiện, PC còn luôn quan tâm tới các thành viên của CLB, có thể kể đến các hoạt động nội bộ như Giáng sinh, 14/2, 8/3,...Những sự kiện ấm áp như vậy giúp các thành viên càng thêm gắn kết, trở thành một tập thể đoàn kết, luôn yêu thương và hỗ trợ nhau.',
   LOGO: vong3
