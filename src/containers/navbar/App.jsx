@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link';
 import styled from 'styled-components';
 import FormPage from '../Form/FormPage';
+import Gen10Page from '../Gen10/Gen10Page';
 import Gen11Page from '../Gen11/Gen11Page';
 import HomePage from '../Home/HomePage';
 import passion from './assets/passion1.png';
@@ -119,6 +120,9 @@ const NAVBAR = ({}) => {
         </Route>
         <Route path="/gen11" exact={true}>
           <Gen11Page />
+        </Route>
+        <Route path="/gen10" exact={true}>
+          <Gen10Page />
         </Route>
       </Switch>
     </Router>

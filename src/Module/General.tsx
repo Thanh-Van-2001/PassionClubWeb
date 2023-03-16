@@ -25,6 +25,7 @@ const TOP_SECTION = {
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '/form',
   PASSION_CLUB_LOOKING_BACK: '/gen11',
+  PC_G10: '/gen10',
   DIRECT_GGFORM_LINK: 'https://tinyurl.com/PCTuyenQuanGen11'
 };
 
@@ -176,7 +177,7 @@ const ClubStructure = [
       icon: <i className="fourth fas fa-3x fa-camera"></i>,
       type: 'Ban truyền thông',
       content:
-        'Những pháp sư tài năng của ban truyền thông là những người có năng lực nắm bắt những khoảnh khắc tỏa sáng của mọi người. Âm thầm nhưng đầy ý nghĩa, có thể nói Ban Truyền thông chính là “cơ quan ngôn luận” của FGC. Từng sự kiện lớn nhỏ đều không thể thiếu sự góp mặt của những chú ong chăm chỉ của Ban Truyền thông'
+        'Những pháp sư tài năng của ban truyền thông là những người có năng lực nắm bắt những khoảnh khắc tỏa sáng của mọi người. Âm thầm nhưng đầy ý nghĩa, có thể nói Ban Truyền thông chính là “cơ quan ngôn luận” của PC. Từng sự kiện lớn nhỏ đều không thể thiếu sự góp mặt của những chú ong chăm chỉ của Ban Truyền thông'
     },
     {
       icon: <i className="first fas fa-4x fa-book-open"></i>,

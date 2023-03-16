@@ -54,9 +54,23 @@ function G11_3() {
 }
 
 function I11_3() {
+  // return (
+  //   <div className="I11_3S">
+  //     <img className="I11_3" src={LIVE_SHOW.LOGO} alt="liveshow" />
+  //   </div>
+  // );
+  const videoId = 'ERAf2G0H6qI';
+  const opts = {
+    width: '480',
+    height: '270',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 0
+    }
+  };
   return (
-    <div className="I11_3S">
-      <img className="I11_3" src={LIVE_SHOW.LOGO} alt="liveshow" />
+    <div>
+      <YouTube videoId={videoId} opts={opts} />
     </div>
   );
 }

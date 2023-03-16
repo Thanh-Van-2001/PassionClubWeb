@@ -101,10 +101,10 @@ export default function Gen11Page() {
             &nbsp;
             <br />
           </Col>
-          <Col className="info-div" sm={12} lg={8} md={8}>
+          <Col className="info-div" sm={12} lg={7} md={8}>
             <G11_3 />
           </Col>
-          <Col className="info-div" sm={2} lg={4} md={2}>
+          <Col className="info-div" sm={2} lg={2} md={2}>
             <I11_3 />
             <br />
             &nbsp;
@@ -186,7 +186,7 @@ export default function Gen11Page() {
         <Row className="prizesection register-form">
           <PrizeHeading type="Chuyện Gen10..." />
           {/* <h3>Hãy điền đơn thật chính xác và chi tiết nhé</h3> */}
-          <a href={TOP_SECTION.DIRECT_GGFORM_LINK}>
+          <a href={TOP_SECTION.PC_G10}>
             {' '}
             <Btn
               class="sponsor_btn"
