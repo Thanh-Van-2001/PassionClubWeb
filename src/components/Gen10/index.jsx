@@ -11,7 +11,7 @@ import {
 
 function G10_1() {
   return (
-    <div className="G11_1">
+    <div className="G10_1">
       <h1>{TUYEN_QUAN.TITLE}</h1>
       <p>{TUYEN_QUAN.LONG_DESCRIPTION}</p>
     </div>

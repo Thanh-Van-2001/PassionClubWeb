@@ -26,8 +26,8 @@ import {
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
 import {frequentlyAskedQuestions} from '../../Module/Faq';
+import {BoardOfDirectors} from '../../Module/Gen11';
 import {
-  BoardOfDirectors,
   ClubStructure,
   DevTeam,
   FOOTER,

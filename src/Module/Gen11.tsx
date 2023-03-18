@@ -1,8 +1,12 @@
-import gen11 from './Assets/Gen11.png';
-import hola from './Assets/hola.png';
-import live from './Assets/live show.png';
-import prize from './Assets/prize.png';
+import gen11 from './Assets/team11/Gen11.png';
+import hola from './Assets/team11/hola.png';
+import live from './Assets/team11/live show.png';
+import prize from './Assets/team11/prize.png';
 import vong3 from './Assets/vong3.png';
+
+import hieu from './Assets/team11/Hieu.png';
+import long from './Assets/team11/Long.png';
+import thao from './Assets/team11/Thao.png';
 
 const TUYEN_QUAN = {
   TITLE: 'Welcome home...',
@@ -45,4 +49,38 @@ const LITTLE_THINGS = {
   LOGO: vong3
 };
 
-export {TUYEN_QUAN, CON_TEST, LIVE_SHOW, LIVE_SESSION, LITTLE_THINGS, HOLA};
+const BoardOfDirectors = [
+  [
+    //Array 1
+    {
+      Name: 'Hieu',
+      role: 'Chủ nhiệm - Phạm Huy Hiệu ',
+      facebook: 'https://www.facebook.com/pham.hieu.5030927',
+      instagram: '',
+      img: hieu
+    },
+    {
+      Name: 'Long',
+      role: 'Phó chủ nhiệm - Nguyễn Đức Hoàng Long',
+      facebook: 'https://www.facebook.com/profile.php?id=100011751381333',
+      instagram: '',
+      img: long
+    },
+    {
+      Name: 'Thao',
+      role: 'Phó chủ nhiệm - Phạm Ngọc Phương Thảo',
+      facebook: 'https://www.facebook.com/pnpt.23',
+      instagram: '',
+      img: thao
+    }
+  ]
+];
+export {
+  TUYEN_QUAN,
+  CON_TEST,
+  LIVE_SHOW,
+  LIVE_SESSION,
+  LITTLE_THINGS,
+  HOLA,
+  BoardOfDirectors
+};

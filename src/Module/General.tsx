@@ -3,7 +3,6 @@ import pc from './Assets/pclogo.png';
 import thu from './Assets/thu am.png';
 import work from './Assets/work.png';
 
-import boy from './Assets/boy.png';
 import astro from './Assets/sponsorsLogos/astronaut.png';
 import guitar from './Assets/sponsorsLogos/guitar.png';
 import heart from './Assets/sponsorsLogos/heart.png';
@@ -11,21 +10,17 @@ import mascot from './Assets/sponsorsLogos/mascot.png';
 import passion from './Assets/sponsorsLogos/passion1.png';
 import piano from './Assets/sponsorsLogos/piano.png';
 import uet from './Assets/sponsorsLogos/UET.png';
-
-import hieu from './Assets/teami/Hieu.png';
-import long from './Assets/teami/Long.png';
-import thanh from './Assets/teami/Thanh.png';
-import thao from './Assets/teami/Thao.png';
+import thanh from './Assets/team9/Thanh.png';
 
 const TOP_SECTION = {
   TITLE: 'Passion Club',
   Typed_effect: ['Live your music', 'Live your passion'],
   SHORT_DESCRIPTION: 'Câu lạc bộ Nghệ thuật trường Đại học Công Nghệ - ĐHQGHN',
-  IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '/form',
   PASSION_CLUB_LOOKING_BACK: '/gen11',
   PC_G10: '/gen10',
+  PC_G9: '/gen9',
   DIRECT_GGFORM_LINK: 'https://tinyurl.com/PCTuyenQuanGen11'
 };
 
@@ -199,50 +194,6 @@ const ClubStructure = [
  * in a group of 3.
  */
 
-const BoardOfDirectors = [
-  [
-    //Array 1
-    {
-      Name: 'Hieu',
-      role: 'Chủ nhiệm - Phạm Huy Hiệu ',
-      facebook: 'https://www.facebook.com/pham.hieu.5030927',
-      instagram: '',
-      img: hieu
-    },
-    {
-      Name: 'Long',
-      role: 'Phó chủ nhiệm - Nguyễn Đức Hoàng Long',
-      facebook: 'https://www.facebook.com/profile.php?id=100011751381333',
-      instagram: '',
-      img: long
-    },
-    {
-      Name: 'Thao',
-      role: 'Phó chủ nhiệm - Phạm Ngọc Phương Thảo',
-      facebook: 'https://www.facebook.com/pnpt.23',
-      instagram: '',
-      img: thao
-    }
-  ]
-  // [
-  //   //Array 2
-  //   {
-  //     Name: 'Lyanola',
-  //     role: 'Organizer',
-  //     github: '',
-  //     linkedin: '',
-  //     img: lyin
-  //   },
-  //   {
-  //     Name: 'Zoheb',
-  //     role: 'Organizer',
-  //     github: '',
-  //     linkedin: '',
-  //     img: zoha
-  //   }
-  // ]
-];
-
 const DevTeam = [
   [
     //Array 1
@@ -278,7 +229,6 @@ export {
   FOOTER,
   ClubStructure,
   sponsorLogos,
-  BoardOfDirectors,
   DevTeam,
   schedule,
   calenderStartingDate

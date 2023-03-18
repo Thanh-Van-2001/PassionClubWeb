@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import FormPage from '../Form/FormPage';
 import Gen10Page from '../Gen10/Gen10Page';
 import Gen11Page from '../Gen11/Gen11Page';
+import Gen9Page from '../Gen9/Gen9Page';
 import HomePage from '../Home/HomePage';
 import passion from './assets/passion1.png';
 import './styles.scss';
@@ -123,6 +124,9 @@ const NAVBAR = ({}) => {
         </Route>
         <Route path="/gen10" exact={true}>
           <Gen10Page />
+        </Route>
+        <Route path="/gen9" exact={true}>
+          <Gen9Page />
         </Route>
       </Switch>
     </Router>

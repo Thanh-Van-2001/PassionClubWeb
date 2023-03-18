@@ -1,8 +1,11 @@
-import mua from './Assets/4mua.png';
-import hola from './Assets/Gen9hola.png';
-import prize from './Assets/prize.png';
-import rococo from './Assets/rococo.png';
-import online from './Assets/tuyenquanonline.png';
+import mua from './Assets/team10/4mua.png';
+import hola from './Assets/team10/Gen9hola.png';
+import rococo from './Assets/team10/rococo.png';
+import online from './Assets/team10/tuyenquanonline.png';
+
+import hong from './Assets/team10/chau.png';
+import duc from './Assets/team10/duc.png';
+import duong from './Assets/team10/duong.png';
 
 const TUYEN_QUAN = {
   TITLE: 'Lần đầu làm chuyện ấy...',
@@ -14,8 +17,7 @@ const TUYEN_QUAN = {
 const TUA_RADIO = {
   TITLE: 'Tựa...',
   LONG_DESCRIPTION:
-    'Có phải hôm nay cậu mệt lắm không? Ngồi xuống tựa vào PC và kể cho chúng mình nghe nhé! Thế giới khắc nghiệt như vậy, có lẽ đôi khi chúng ta cũng cần được trò chuyện, có những muộn phiền, những bức bối, âu lo hay những vấn đề trong cuộc sống cần được giãi bày. Vì vậy mà chúng mình mang đến một chương trình radio có tên “TỰA” với hy vọng giúp bạn giải quyết những vấn đề khó khăn, có những cái nhìn lạc quan, tích cực hơn trong cuộc sống, hay chỉ đơn giản là giúp bạn cảm thấy được lắng nghe, giải tỏa những bức bối trong lòng. ',
-  LOGO: prize
+    'Có phải hôm nay cậu mệt lắm không? Ngồi xuống tựa vào PC và kể cho chúng mình nghe nhé! Thế giới khắc nghiệt như vậy, có lẽ đôi khi chúng ta cũng cần được trò chuyện, có những muộn phiền, những bức bối, âu lo hay những vấn đề trong cuộc sống cần được giãi bày. Vì vậy mà chúng mình mang đến một chương trình radio có tên “TỰA” với hy vọng giúp bạn giải quyết những vấn đề khó khăn, có những cái nhìn lạc quan, tích cực hơn trong cuộc sống, hay chỉ đơn giản là giúp bạn cảm thấy được lắng nghe, giải tỏa những bức bối trong lòng. '
 };
 
 const LIVE_SHOW = {
@@ -39,4 +41,31 @@ const HOLA = {
   LOGO: hola
 };
 
-export {TUYEN_QUAN, TUA_RADIO, LIVE_SHOW, ROCOCO, HOLA};
+const BoardOfDirectors = [
+  [
+    //Array 1
+    {
+      Name: 'Duc',
+      role: 'Chủ nhiệm - Đào Văn Đức ',
+      facebook: 'https://www.facebook.com/d4lic',
+      instagram: '',
+      img: duc
+    },
+    {
+      Name: 'Hong',
+      role: 'Phó chủ nhiệm - Phùng Thị Thúy Hồng',
+      facebook: 'https://www.facebook.com/ptthdc',
+      instagram: '',
+      img: hong
+    },
+    {
+      Name: 'Duong',
+      role: 'Phó chủ nhiệm - Đỗ Thị Ánh Dương',
+      facebook: 'https://www.facebook.com/dtad105',
+      instagram: '',
+      img: duong
+    }
+  ]
+];
+
+export {TUYEN_QUAN, TUA_RADIO, LIVE_SHOW, ROCOCO, HOLA, BoardOfDirectors};

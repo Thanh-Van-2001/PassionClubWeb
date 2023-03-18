@@ -6,25 +6,29 @@ import Row from 'react-bootstrap/Row';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {
-  G10_1,
-  G10_2,
-  G10_3,
-  G10_4,
-  G10_5,
-  I10_1,
-  I10_2,
-  I10_3,
-  I10_4,
-  I10_5
-} from '../../components/Gen10/index.jsx';
+  G9_1,
+  G9_2,
+  G9_3,
+  G9_4,
+  G9_5,
+  G9_6,
+  G9_7,
+  I9_1,
+  I9_2,
+  I9_3,
+  I9_4,
+  I9_5,
+  I9_6,
+  I9_7
+} from '../../components/Gen9/index.jsx';
 import {Btn, Myinfo} from '../../components/Landing/index.jsx';
 import {PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {Member} from '../../components/Team';
-import {BoardOfDirectors} from '../../Module/Gen10';
+import {BoardOfDirectors} from '../../Module/Gen9';
 import {TOP_SECTION} from '../../Module/General';
 import './about.css';
-import candle from './assets/candle.png';
+import full from './assets/fulls.png';
 import pattern from './assets/pattern4.png';
 const TeamMembers = (props, index) => {
   return (
@@ -38,7 +42,7 @@ const TeamMembers = (props, index) => {
   );
 };
 
-export default function Gen10Page() {
+export default function Gen9Page() {
   const [media, setMedia] = useState();
   UseMedia('min-width', 1000, setMedia);
 
@@ -47,7 +51,7 @@ export default function Gen10Page() {
       <div
         className="color_sectiom"
         id="home"
-        style={{backgroundImage: `url(${candle})`}}
+        style={{backgroundImage: `url(${full})`}}
       >
         <Container fluid>
           <Row className="Row info">
@@ -66,7 +70,7 @@ export default function Gen10Page() {
 
       <Container fluid>
         <Row className=" logoSection">
-          <h1> Gen10 - Một năm thật đặc biệt...</h1>
+          <h1> Gen9 - Vì sao vụt sáng 💫...</h1>
           <br />
           &nbsp;
           <br />
@@ -77,16 +81,16 @@ export default function Gen10Page() {
           &nbsp;
           <br />
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <G10_1 />
+            <G9_1 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I10_1 />
+            <I9_1 />
           </Col>
-          <Col className="info-div" sm={2} lg={6} md={2}>
-            <I10_2 />
+          <Col className="info-div" sm={2} lg={5} md={2}>
+            <I9_2 />
           </Col>
-          <Col className="info-div" sm={12} lg={6} md={2}>
-            <G10_2 />
+          <Col className="info-div" sm={12} lg={7} md={2}>
+            <G9_2 />
             <br />
             &nbsp;
             <br />
@@ -101,10 +105,10 @@ export default function Gen10Page() {
             <br />
           </Col>
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <G10_3 />
+            <G9_3 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I10_3 />
+            <I9_3 />
             <br />
             &nbsp;
             <br />
@@ -119,10 +123,10 @@ export default function Gen10Page() {
             <br />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
-            <I10_4 />
+            <I9_4 />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
-            <G10_4 />
+            <G9_4 />
             <br />
             <br />
             &nbsp;
@@ -139,10 +143,42 @@ export default function Gen10Page() {
             <br />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={8}>
-            <G10_5 />
+            <G9_5 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I10_5 />
+            <I9_5 />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+          </Col>
+          <Col className="info-div" sm={2} lg={5} md={2}>
+            <I9_6 />
+          </Col>
+          <Col className="info-div" sm={12} lg={7} md={2}>
+            <G9_6 />
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+          </Col>
+          <Col className="info-div" sm={12} lg={7} md={8}>
+            <G9_7 />
+          </Col>
+          <Col className="info-div" sm={2} lg={2} md={2}>
+            <I9_7 />
           </Col>
         </Row>
         {media && <Birds top="120vh" left="0vh" type="" />}
@@ -161,7 +197,7 @@ export default function Gen10Page() {
         <br />
         &nbsp;
         <br />
-        <h1 id="team">Ban chủ nhiệm Gen10</h1>
+        <h1 id="team">Ban chủ nhiệm Gen9</h1>
         {BoardOfDirectors.map(TeamMembers)}
         <br />
         &nbsp;
@@ -176,9 +212,9 @@ export default function Gen10Page() {
         &nbsp;
         <br />
         <Row className="prizesection register-form">
-          <PrizeHeading type="Chuyện Gen9..." />
+          <PrizeHeading type="Chuyện Gen8..." />
           {/* <h3>Hãy điền đơn thật chính xác và chi tiết nhé</h3> */}
-          <a href={TOP_SECTION.PC_G9}>
+          <a href={TOP_SECTION.PC_G10}>
             {' '}
             <Btn
               class="sponsor_btn"
