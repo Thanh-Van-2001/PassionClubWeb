@@ -6,29 +6,31 @@ import Row from 'react-bootstrap/Row';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {
-  G9_1,
-  G9_2,
-  G9_3,
-  G9_4,
-  G9_5,
-  G9_6,
-  G9_7,
-  I9_1,
-  I9_2,
-  I9_3,
-  I9_4,
-  I9_5,
-  I9_6,
-  I9_7
-} from '../../components/Gen9/index.jsx';
+  G8_1,
+  G8_2,
+  G8_3,
+  G8_4,
+  G8_5,
+  G8_6,
+  G8_7,
+  G8_8,
+  I8_1,
+  I8_2,
+  I8_3,
+  I8_4,
+  I8_5,
+  I8_6,
+  I8_7,
+  I8_8
+} from '../../components/Gen8/index.jsx';
 import {Btn, Myinfo} from '../../components/Landing/index.jsx';
 import {PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {Member} from '../../components/Team';
-import {BoardOfDirectors} from '../../Module/Gen9';
+import {BoardOfDirectors} from '../../Module/Gen8';
 import {TOP_SECTION} from '../../Module/General';
 import './about.css';
-import full from './assets/fulls.png';
+import halo from './assets/duca.png';
 import pattern from './assets/pattern4.png';
 const TeamMembers = (props, index) => {
   return (
@@ -42,7 +44,7 @@ const TeamMembers = (props, index) => {
   );
 };
 
-export default function Gen9Page() {
+export default function Gen8Page() {
   const [media, setMedia] = useState();
   UseMedia('min-width', 1000, setMedia);
 
@@ -51,7 +53,7 @@ export default function Gen9Page() {
       <div
         className="color_sectiom"
         id="home"
-        style={{backgroundImage: `url(${full})`}}
+        style={{backgroundImage: `url(${halo})`}}
       >
         <Container fluid>
           <Row className="Row info">
@@ -70,7 +72,7 @@ export default function Gen9Page() {
 
       <Container fluid>
         <Row className=" logoSection">
-          <h1> Gen9 - Vì sao vụt sáng 💫...</h1>
+          <h1> Gen8 - Bước chuyển mình mạnh mẽ</h1>
           <br />
           &nbsp;
           <br />
@@ -81,16 +83,16 @@ export default function Gen9Page() {
           &nbsp;
           <br />
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <G9_1 />
+            <G8_1 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I9_1 />
+            <I8_1 />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
-            <I9_2 />
+            <I8_2 />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
-            <G9_2 />
+            <G8_2 />
             <br />
             &nbsp;
             <br />
@@ -105,13 +107,10 @@ export default function Gen9Page() {
             <br />
           </Col>
           <Col className="info-div" sm={12} lg={8} md={8}>
-            <G9_3 />
+            <G8_3 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I9_3 />
-            <br />
-            &nbsp;
-            <br />
+            <I8_3 />
             <br />
             &nbsp;
             <br />
@@ -123,10 +122,10 @@ export default function Gen9Page() {
             <br />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
-            <I9_4 />
+            <I8_4 />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
-            <G9_4 />
+            <G8_4 />
             <br />
             <br />
             &nbsp;
@@ -143,10 +142,10 @@ export default function Gen9Page() {
             <br />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={8}>
-            <G9_5 />
+            <G8_5 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I9_5 />
+            <I8_5 />
             <br />
             &nbsp;
             <br />
@@ -161,10 +160,15 @@ export default function Gen9Page() {
             <br />
           </Col>
           <Col className="info-div" sm={2} lg={5} md={2}>
-            <I9_6 />
+            <I8_6 />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={2}>
-            <G9_6 />
+            <G8_6 />
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
             <br />
             <br />
             &nbsp;
@@ -175,10 +179,26 @@ export default function Gen9Page() {
             <br />
           </Col>
           <Col className="info-div" sm={12} lg={7} md={8}>
-            <G9_7 />
+            <G8_7 />
           </Col>
           <Col className="info-div" sm={2} lg={2} md={2}>
-            <I9_7 />
+            <I8_7 />
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+            &nbsp;
+            <br />
+            <br />
+          </Col>
+          <Col className="info-div" sm={2} lg={5} md={2}>
+            <I8_8 />
+          </Col>
+          <Col className="info-div" sm={12} lg={7} md={2}>
+            <G8_8 />
           </Col>
         </Row>
         {media && <Birds top="120vh" left="0vh" type="" />}
@@ -197,7 +217,7 @@ export default function Gen9Page() {
         <br />
         &nbsp;
         <br />
-        <h1 id="team">Ban chủ nhiệm Gen9</h1>
+        <h1 id="team">Ban chủ nhiệm Gen8</h1>
         {BoardOfDirectors.map(TeamMembers)}
         <br />
         &nbsp;
@@ -212,9 +232,9 @@ export default function Gen9Page() {
         &nbsp;
         <br />
         <Row className="prizesection register-form">
-          <PrizeHeading type="Chuyện Gen8..." />
+          <PrizeHeading type="Chuyện Gen7..." />
           {/* <h3>Hãy điền đơn thật chính xác và chi tiết nhé</h3> */}
-          <a href={TOP_SECTION.PC_G8}>
+          <a href={TOP_SECTION.PC_G7}>
             {' '}
             <Btn
               class="sponsor_btn"

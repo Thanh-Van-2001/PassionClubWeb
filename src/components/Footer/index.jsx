@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react';
+// import { Btn } from '../../components/Landing/index.jsx';
 import {TOP_SECTION} from '../../Module/General';
 import cross from './assets/cross.svg';
 //------------------------------------------------------------------
@@ -74,16 +75,16 @@ const Footer = () => {
             </a>
           </div>
         </div> */}
-        <div className="Register_a">
-          {/* <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+        {/* <div className="Register_a">
+           <a href={TOP_SECTION.JUDGES_FORM_LINK}>
             <Btn type="Tuyển thành viên" overlay="Điền thông tin" />
-          </a> */}
-          {/* {FOOTER.VOLUNTEERING_FORM.required && (
+          </a> 
+           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
-          )} */}
-        </div>
+          )} 
+        </div> */}
         <div className="footer_info">
           <div class="row">
             <div class="col-md-4 px-md-1">

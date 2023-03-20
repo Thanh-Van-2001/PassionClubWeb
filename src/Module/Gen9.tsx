@@ -6,6 +6,7 @@ import recruit from './Assets/team9/tuyen quan.png';
 import online from './Assets/team9/vethica.png';
 
 import kien from './Assets/team9/kien.png';
+import minh from './Assets/team9/minh.png';
 import thanh from './Assets/team9/Thanh.png';
 
 const VE_THI_CA = {
@@ -37,7 +38,7 @@ const DU_CA = {
 };
 
 const PIC_NIC = {
-  TITLE: 'Trở về với thiên nhiên',
+  TITLE: 'On trip 🚗',
   LONG_DESCRIPTION:
     'Tháng 1 đánh dấu bằng chuyến đi du lịch đáng nhớ của chúng mình tới Bản Rõm, nhằm gắn kết giữa các thế hệ trong CLB, từ nóc nhà đến chân nhà, từ những chú "gà tơ" cho tới các bậc "già gân". Các thành viên có cơ hội được tổ chức cắm trại, chơi game, thưởng thức các món ăn ngon, và có thể thư giãn trong thiên nhiên xanh mát.',
   LOGO: picnic
@@ -72,6 +73,13 @@ const BoardOfDirectors = [
       facebook: 'https://www.facebook.com/felicenguyen2001/',
       instagram: '',
       img: thanh
+    },
+    {
+      Name: 'Minh',
+      role: 'Cựu phó chủ nhiệm - Đỗ Minh',
+      facebook: 'https://www.facebook.com/phapsu.ThanhXuan',
+      instagram: '',
+      img: minh
     }
   ]
 ];

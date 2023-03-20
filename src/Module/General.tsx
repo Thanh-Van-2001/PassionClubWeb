@@ -21,6 +21,8 @@ const TOP_SECTION = {
   PASSION_CLUB_LOOKING_BACK: '/gen11',
   PC_G10: '/gen10',
   PC_G9: '/gen9',
+  PC_G8: '/gen8',
+  PC_G7: '/gen7',
   DIRECT_GGFORM_LINK: 'https://tinyurl.com/PCTuyenQuanGen11'
 };
 

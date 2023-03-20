@@ -1,0 +1,247 @@
+.I7_1S {
+    width: 390px;
+    height: 390px;
+    margin-top: 50;
+    padding: 0;
+    position: relative;
+    right: 80px;
+  }
+  .I7_1 {
+    width: 110%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  
+  .I7_2S {
+    width: 450px;
+    height: 290px;
+    margin-top: 20;
+    padding: 10;
+    position: relative;
+    right: 140px;
+  }
+  .I7_2 {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  
+  .I7_3S {
+    width: 450px;
+    height: 290px;
+    margin-top: 20;
+    padding: 10;
+    position: relative;
+    right: 200px;
+  }
+  .I7_3 {
+    width: 60%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+
+  .I7_4S {
+    width: 450px;
+    height: 290px;
+    margin-top: 20;
+    padding: 10;
+    position: relative;
+    right: 130px;
+  }
+  .I7_4 {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  
+  .I7_5S {
+    width: 450px;
+    height: 290px;
+    margin-top: 20;
+    padding: 10;
+    position: relative;
+    right: 40px;
+  }
+  .I7_5 {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+
+    .I7_6S {
+    width: 450px;
+    height: 290px;
+    margin-top: 20;
+    padding: 10;
+    position: relative;
+    right: 140px;
+  }
+  .I7_6 {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+
+
+
+  .G7_1 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  .G7_1 h1 {
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  .G7_2 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  .G7_2 h1 {
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  .G7_3 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  .G7_3 h1 {
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .G7_4 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  .G7_4 h1 {
+    font-weight: 700;
+    text-align: justify;
+  }
+  .G7_5 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  .G7_5 h1 {
+    font-weight: 700;
+    text-align: justify;
+  }
+
+    .G7_6 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  .G7_6 h1 {
+    font-weight: 700;
+    text-align: justify;
+  }
+
+    .G7_7 {
+    text-align: justify;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .I7_1 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+  
+  .I7_2 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+  
+  .I7_3 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+
+  .I7_4 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+  
+  .I7_5 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+   .I7_6 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+  
+  
+  @-webkit-keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @media (max-width: 570px) {
+    .I7_1S {
+      margin-top: 10rem;
+      margin-bottom: -10rem;
+    }
+    .I7_1 {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 570px) {
+    .I7_2S {
+      margin-top: 10rem;
+      margin-bottom: -10rem;
+      /* background-color: black; */
+    }
+    .I7_2 {
+      margin: 0 auto;
+    }
+  }
+  
+  
+  
