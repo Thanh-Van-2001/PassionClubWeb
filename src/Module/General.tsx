@@ -1,6 +1,5 @@
 import duca from './Assets/duca.png';
 import pc from './Assets/pclogo.png';
-import thu from './Assets/thu am.png';
 import work from './Assets/work.png';
 
 import astro from './Assets/sponsorsLogos/astronaut.png';
@@ -58,8 +57,7 @@ const THEN_SECTION = {
 const ADD_SECTION = {
   TITLE: 'Hơn thế nữa...',
   LONG_DESCRIPTION:
-    'Các PCer còn được trực tiếp tham gia vào những project của CLB để tạo ra những sản phẩm âm nhạc lưu lại dấu ấn cũng như chứng tỏ niềm đam mê âm nhạc của bản thân (Thu âm - Quay MV, Parody, ShortFilm); Trải nghiệm tham gia các hoạt động phong trào, tình nguyện trong và ngoài UET (Show diễn chuyên nghiệp và bán chuyên nghiệp, du ca,...) và được gặp gỡ nhiều "tiền bối" để học hỏi, trau dồi kiến thức cùng rất nhiều điều thú vị khác nữa.',
-  LOGO: thu
+    'Các PCer còn được trực tiếp tham gia vào những project của CLB để tạo ra những sản phẩm âm nhạc lưu lại dấu ấn cũng như chứng tỏ niềm đam mê âm nhạc của bản thân (Thu âm - Quay MV, Parody, ShortFilm); Trải nghiệm tham gia các hoạt động phong trào, tình nguyện trong và ngoài UET (Show diễn chuyên nghiệp và bán chuyên nghiệp, du ca,...) và được gặp gỡ nhiều "tiền bối" để học hỏi, trau dồi kiến thức cùng rất nhiều điều thú vị khác nữa.'
 };
 
 const FOOTER = {
@@ -126,9 +124,9 @@ const schedule = [
     day: '25-3-2023',
     events: [
       {
-        title: 'Sinh nhật CLB',
-        timings: '7 Pm - 10 Pm',
-        link: 'https://google.com'
+        title: 'Concert: Một-Thập Kỷ',
+        timings: '19h - 21h30',
+        link: 'https://www.facebook.com/PCuet/posts/pfbid0XTV7jnLiRCp2uJjZT3DE2RwfdzRVaownGWxRFZNcRkpAjremfudrTKYuJkQNvKCHl'
       }
     ]
   }
